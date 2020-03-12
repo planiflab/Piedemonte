@@ -91,14 +91,6 @@
         <script src="data/puestos2005_60.js"></script>
         <script src="data/track_OSM_61.js"></script>
         <script>
-            var capasBase = {
-    "capas": CurvasdeNivelGD_57,
-    "OpenStreetMap": capaOSM
-};
-
-var selectorCapas = new L.control.layers(capasBase);
-selectorCapas.addTo(mapa);
-
         var map = L.map('map', {
             zoomControl:true, maxZoom:28, minZoom:1
         }).fitBounds([[-32.922907452237816,-68.9379117196502],[-32.90209937936249,-68.8964498444261]]);
